@@ -1,0 +1,42 @@
+// 只有在#root设置的样式才会覆盖antd的样式,写在最外层不生效
+// #root {
+//   @import './styles/antd.overlay.less';
+// }
+@import './styles/antd.overlay.less';
+@import './styles/main.less';
+
+@font-face {
+  font-family: 'HanSan';
+  src: url('./assets/fonts//SourceHanSansRegular.ttf');
+}
+@font-face {
+  font-family: 'WeiRuanYH';
+  src: url('./assets/fonts/BTYH.ttf');
+}
+html,
+body,
+#root {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: 'HanSan';
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+// 文字折叠
+.ellipse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pointer,
+a,
+li {
+  cursor: pointer;
+}

@@ -1,0 +1,453 @@
+.commonTable {
+  padding: 0 40px;
+  .ant-btn {
+    border-color: #0c62d3;
+    color: #ffffff;
+    background: #0c62d3;
+    cursor: pointer;
+  }
+  // 表格选中后 配色
+  .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+  .ant-checkbox:hover .ant-checkbox-inner,
+  .ant-checkbox-checked .ant-checkbox-inner,
+  .ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color: #201e1e;
+  }
+
+  // .ant-alert-info {
+  //   background: #201e1e1a;
+  //   border: 1px solid rgba(0, 0, 0, 0.2);
+  //   .ant-pro-table-alert-info {
+  //     color: #201e1e;
+  //     font-family: 'HanSan';
+  //   }
+  // }
+
+  // 表格搜索
+  .ant-pro-table-search {
+    background: transparent !important;
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+  // 表单Label
+  .ant-form-item-label > label {
+    font-family: 'HanSan';
+    font-weight: 400;
+    color: #201e1e;
+    .ant-form-item-tooltip {
+      color: #201e1e;
+    }
+  }
+
+  // // 输入框内容区
+  // .ant-input {
+  //   background: transparent;
+  //   color: #201e1e;
+  // }
+
+  // // 输入框包裹区
+  // .ant-input-affix-wrapper,
+  // .ant-input-affix-wrapper:focus,
+  // .ant-input-affix-wrapper:hover,
+  // .ant-input-affix-wrapper-focused {
+  //   background: transparent;
+  //   color: #201e1e;
+  //   border: 1px solid #201e1e80;
+  // }
+  // // 清空按钮
+  // .anticon {
+  //   color: #201e1e80;
+  // }
+  // .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  //   border: 1px solid #201e1e80;
+  // }
+  // // 下拉框
+  // .ant-select-dropdown {
+  //   background: #48556ecc;
+  // }
+  // // 下拉框边框
+  // .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  //   background: transparent;
+  // }
+  // .ant-select:not(.ant-select-disabled):hover .ant-select-selector,
+  // .ant-select:not(.ant-select-disabled):focus .ant-select-selector {
+  //   border: 1px solid #201e1e80;
+  // }
+  // // 下拉框外边框
+  // .ant-select-selector {
+  //   border: 1px solid #201e1e80 !important;
+  // }
+
+  // // 下拉框文字颜色
+  // .ant-select-single.ant-select-show-arrow .ant-select-selection-item {
+  //   color: #201e1e;
+  // }
+  // // 下拉框清除按钮
+  // .ant-select-clear {
+  //   background: transparent;
+  // }
+  // // 日期选择器
+  // .ant-picker .ant-picker-range {
+  //   background: transparent !important;
+  //   border: 1px solid #201e1e80 !important;
+  // }
+
+  // 表格外层
+  .ant-pro-card {
+    background: transparent;
+    border: none;
+    .ant-pro-table-list-toolbar-title {
+      color: #201e1e;
+      font-family: 'HanSan';
+    }
+  }
+  .ant-empty-description,
+  .ant-select-item {
+    font-family: 'HanSan';
+    color: #201e1e !important;
+  }
+  // .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  //   background: #6880a2cc;
+  //   color: #201e1e;
+  // }
+
+  // 通用表格
+  .ant-progress-line {
+    width: 90%;
+  }
+  .ant-empty-description {
+    color: #201e1e;
+  }
+  .ant-progress-text {
+    color: #201e1e;
+    font-family: 'HanSan';
+  }
+  .ant-table {
+    background: transparent;
+    color: #201e1e;
+    font-family: 'HanSan';
+    .ant-table-tbody {
+      tr > td {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        .scrollDiv {
+          cursor: pointer;
+        }
+        // background: rgba(0, 0, 0, 0);
+      }
+      // tr::nth-child(2) > td {
+      //   // border-top: 2px solid rgba(58, 160, 224, 0.001);
+      // }
+      tr:hover > td {
+        // background: #201e1e1a;
+      }
+    }
+
+    .ant-table-tbody > tr.ant-table-row:hover > td,
+    .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+      // background: #201e1e1a;
+
+      // background: rgba(12, 98, 211, 0.09);
+    }
+    // .ant-table-tbody
+    //   > tr.ant-table-row:hover
+    //   > td.ant-table-cell-row-hover:nth-child(1):not(label):before {
+    //   position: absolute;
+    //   top: 0px;
+    //   left: 0px;
+    //   width: 6px;
+    //   height: 6px;
+    //   border-left: 1px solid #201e1e;
+    //   border-top: 1px solid #201e1e;
+    //   content: '';
+    // }
+
+    // .ant-table-tbody
+    //   > tr.ant-table-row:hover
+    //   > td.ant-table-cell-row-hover:nth-child(1):not(label)
+    //   ::after {
+    //   position: absolute;
+    //   bottom: 0px;
+    //   left: 0px;
+    //   width: 6px;
+    //   height: 6px;
+    //   border-left: 1px solid #201e1e;
+    //   border-bottom: 1px solid #201e1e;
+    //   content: '';
+    // }
+
+    // .ant-table-tbody
+    //   > tr.ant-table-row:hover
+    //   > td.ant-table-cell-row-hover:last-of-type:not(label)
+    //   ::before {
+    //   position: absolute;
+    //   top: 0px;
+    //   right: 0px;
+    //   width: 6px;
+    //   height: 6px;
+    //   border-right: 1px solid #201e1e;
+    //   border-top: 1px solid #201e1e;
+    //   content: '';
+    // }
+
+    // .ant-table-tbody
+    //   > tr.ant-table-row:hover
+    //   > td.ant-table-cell-row-hover:last-of-type:not(label)
+    //   ::after {
+    //   position: absolute;
+    //   bottom: 0px;
+    //   right: 0px;
+    //   width: 6px;
+    //   height: 6px;
+    //   border-right: 1px solid #201e1e;
+    //   border-bottom: 1px solid #201e1e;
+    //   content: '';
+    // }
+
+    // .ant-table-tbody > tr.ant-table-row:nth-child(2n) > td {
+    //   background: #33333308;
+    // }
+    .ant-table-header {
+      padding-bottom: 5px;
+    }
+    // 选中框信息
+
+    .ant-table-thead {
+      tr > th {
+        background: #ffffff;
+        // color: #201e1e;
+        font-family: 'HanSan';
+        font-weight: bold;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      }
+    }
+    .ant-table-cell-scrollbar {
+      box-shadow: none;
+    }
+    .ant-btn {
+      margin-right: 0.3125rem !important;
+    }
+  }
+  // .ant-table-footer {
+  //   background: #201e1e;
+  // }
+  // // 翻页样式
+  // .ant-table-pagination {
+  //   .ant-pagination {
+  //     margin: 16px 47px;
+  //     /* margin-right: 47px; */
+  //     font-size: 14px;
+  //     font-family: Microsoft YaHei UI;
+  //     font-weight: 400;
+  //     color: #201e1e;
+  //   }
+  //   .ant-pagination-total-text,
+  //   .ant-pagination-next,
+  //   .ant-pagination-item-ellipsis,
+  //   .ant-pagination-prev {
+  //     min-width: 22px;
+  //     height: 22px;
+  //     line-height: 22px;
+  //     // border: 1px solid rgba(223, 226, 230, 0.3);
+
+  //     border-radius: 3px;
+
+  //     color: #201e1e !important;
+  //   }
+
+  //   .ant-pagination-prev {
+  //     // margin-right: 8px !important;
+  //   }
+
+  //   .ant-pagination-item-link {
+  //     color: #201e1e !important;
+  //   }
+
+  //   .ant-pagination-next {
+  //     // margin-left: 8px !important;
+  //   }
+
+  //   .ant-pagination.mini .ant-pagination-item:not(.ant-pagination-item-active) {
+  //     min-width: 22px;
+  //     height: 22px;
+  //     // margin-left: 8px;
+  //     line-height: 20px;
+  //     border: 1px solid rgba(223, 226, 230, 0.3);
+  //     border-radius: 3px;
+  //   }
+
+  //   .ant-pagination-item-active {
+  //     font-weight: 500;
+  //     background: transparent;
+  //     border-color: #000000;
+  //     // margin-left: 8px !important;
+  //     border: 1px solid #48a9d4;
+  //     border-radius: 3px;
+  //     font-family: Microsoft YaHei UI;
+  //     font-weight: 400;
+  //     color: #48a9d4 !important;
+  //   }
+
+  //   .ant-pagination-options-quick-jumper {
+  //     color: #201e1e !important;
+  //     input {
+  //       border: 1px solid rgba(223, 226, 230, 0.3);
+  //       background: rgba(0, 0, 0, 0);
+  //       color: #201e1e !important;
+  //       // border: none;
+  //     }
+  //   }
+
+  //   .ant-pagination-item > a {
+  //     color: #201e1e !important;
+  //   }
+  // }
+  // 分页样式
+  // :not(.ant-pagination-item-active)
+  // 表格主体
+  .ant-table-body {
+    &::-webkit-scrollbar {
+      // 隐藏表格滚动条
+      display: none;
+      //整体样式
+      height: 12px;
+    }
+    &::-webkit-scrollbar-thumb {
+      //滑动滑块条样式
+      border-radius: 2px;
+      -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      // background: #00aaff;
+      background: #48aadc;
+    }
+    &::-webkit-scrollbar-track {
+      //轨道的样式
+      -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      border-radius: 2px;
+      background: rgba(0, 0, 0, 0.1) !important;
+    }
+    &::-webkit-scrollbar-track-piece {
+      //轨道的样式
+      // -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+      border-radius: 2px;
+      background: rgb(7, 86, 126, 0.4) !important;
+    }
+  }
+
+  .ant-progress-inner {
+    background-color: rgba(14, 70, 99, 0.4);
+  }
+
+  // 表单样式
+  .ant-modal-content {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%),
+      radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #374563;
+    background-blend-mode: multiply, multiply;
+  }
+}
+// 通用气泡弹窗
+.commonPopover {
+  // // 气泡弹窗
+  // .ant-popover-inner {
+  //   color: #201e1e;
+  //   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%),
+  //     radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #374563;
+  //   background-blend-mode: multiply, multiply;
+  // }
+  // .ant-popover-inner-content,
+  // .ant-popover-message {
+  //   color: #201e1e;
+  // }
+  // .ant-btn {
+  //   border-color: #384054;
+  //   color: #201e1e;
+  //   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%),
+  //     radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #374563;
+  //   background-blend-mode: multiply, multiply;
+  // }
+}
+
+// 通用下拉框 下拉类
+.commonTableSelect {
+  // background: #3b4962 !important;
+  // color: #201e1e;
+  // .ant-select-item {
+  //   color: #201e1e;
+  // }
+  // .ant-empty-description {
+  //   font-family: 'HanSan';
+  //   font-weight: 400;
+  //   color: #201e1e;
+  // }
+  // .ant-pro-select-item-option-content-light {
+  //   color: #201e1e;
+  // }
+  // // 级联下拉样式
+  // .ant-cascader-menu-item:hover,
+  // .ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled):hover,
+  // .ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled),
+  // .ant-select-item-option-active:not(.ant-select-item-option-disabled),
+  // // .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  // //   background: #6880a2cc;
+  // //   color: #201e1e;
+  // // }
+
+  // .ant-cascader-menu {
+  //   color: #201e1e;
+  //   border: none;
+  // }
+  // .ant-cascader-menu-item-expand .ant-cascader-menu-item-expand-icon,
+  // .ant-cascader-menu-item-loading-icon {
+  //   color: #201e1e;
+  // }
+
+  // .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  //   color: #201e1e;
+  // }
+}
+
+// 通用日期选择框
+.commonDateRange {
+  background: transparent !important;
+  border: 1px solid #201e1e80 !important;
+  .ant-picker-active-bar {
+    background: #a2a7b7 !important;
+  }
+  .ant-picker-clear {
+    background: transparent !important;
+  }
+  .ant-picker-input > input {
+    font-family: 'HanSan';
+    font-weight: 400;
+    color: #201e1e;
+  }
+}
+// 通用日期选择框下拉框
+.commonDateDropDown {
+  // 日历小三角
+  .ant-picker-range-arrow {
+    background: linear-gradient(135deg, transparent 40%, #48556ecc 40%);
+  }
+  .ant-picker-range-arrow::before {
+    background: linear-gradient(to left, #48556ecc 50%, #48556ecc 50%) no-repeat -10px -10px;
+  }
+  // 日历头部
+  .ant-picker-today-btn,
+  .ant-picker-header,
+  .ant-picker-header button,
+  .ant-picker-content th,
+  .ant-picker-cell {
+    font-family: 'HanSan';
+    font-weight: 400;
+    color: #201e1e;
+  }
+  // 日历背景
+  .ant-picker-panel-container {
+    background: #48556ecc;
+  }
+  // 日历悬浮日期颜色
+
+  .ant-picker-cell:hover:not(.ant-picker-cell-in-view) .ant-picker-cell-inner,
+  .ant-picker-cell:hover:not(.ant-picker-cell-selected):not(.ant-picker-cell-range-start):not(.ant-picker-cell-range-end):not(.ant-picker-cell-range-hover-start):not(.ant-picker-cell-range-hover-end)
+    .ant-picker-cell-inner {
+    background: #48556ecc;
+  }
+  background: transparent !important;
+}
